@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>lỗi 405</title>
 </head>
 <body>
 <h1>This is 405 Error</h1>

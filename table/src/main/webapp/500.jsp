@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>lỗi 500</title>
 </head>
 <body>
 <h1>This is 500 Error</h1>
