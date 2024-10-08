@@ -4,13 +4,13 @@
     version="3.0">
   
   <servlet>
-    <servlet-name>Jvpr</servlet-name>
-    <servlet-class>Jvpr.Jvpr</servlet-class>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>FormServlet.FormServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>Jvpr</servlet-name>
-    <url-pattern>/Jvpr/*</url-pattern>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FomrServlet/*</url-pattern>
   </servlet-mapping>
   
   <error-page>
