@@ -37,6 +37,7 @@
   </error-page>
   
   <error-page>
+    <exception-type>FormServlet.expt</exception-type>
     <location>/404.jsp</location>
   </error-page>
   
