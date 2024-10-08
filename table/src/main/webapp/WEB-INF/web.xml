@@ -4,13 +4,13 @@
     version="3.0">
   
   <servlet>
-    <servlet-name>Jvpr</servlet-name>
-    <servlet-class>Jvpr.Jvpr</servlet-class>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>FormServel.FormServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-    <servlet-name>Jvpr</servlet-name>
-    <url-pattern>/Jvpr/*</url-pattern>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FormServlet/*</url-pattern>
   </servlet-mapping>
   
   <error-page>
@@ -29,7 +29,7 @@
   </error-page>
   
   <error-page>
-    <exception-type>Jvpr.expt</exception-type>
+    <exception-type>FormServlet.expt</exception-type>
     <location>/404.jsp</location>
   </error-page>
   
