@@ -17,6 +17,5 @@
 <footer>
 <p>&copy; San Joaquin Valley Town Hall.</p> </footer>
 </body>
-</table>
 </body>
 </html>

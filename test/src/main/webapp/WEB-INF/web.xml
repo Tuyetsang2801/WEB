@@ -5,12 +5,12 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>FormServlet</servlet-name>
-        <servlet-class>demo.FormServlet</servlet-class>
+        <servlet-name>fixServlet</servlet-name>
+        <servlet-class>test.fixServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>FormServlet</servlet-name>
+        <servlet-name>fixServlet</servlet-name>
         <url-pattern>/form</url-pattern>
     </servlet-mapping>
     
@@ -30,7 +30,7 @@
     </error-page>
     
     <error-page>
-        <exception-type>FormServlet.expt</exception-type>
+        <exception-type>fixServlet.expt</exception-type>
         <location>/404.jsp</location>
     </error-page>
     

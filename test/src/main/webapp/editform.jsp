@@ -7,7 +7,7 @@
 <title>editform</title>
 </head>
 <body>
-<form action="/table/form" method="post">
+<form action="/test/forms" method="post">
 	<h1>Form</h1><br>
 	<label>Your name: </label>
 	<input type="text" id="name" name="name"><br>
