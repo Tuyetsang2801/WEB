@@ -1,58 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-    version="3.0">
-  
-  <servlet>
-    <servlet-name>FormServlet</servlet-name>
-<<<<<<< HEAD
-    <servlet-class>FormServlet.FormServlet</servlet-class>
-=======
-    <servlet-class>FormServel.FormServlet</servlet-class>
->>>>>>> a0863a8df9fa6f334cdda38b1d316438efddf88b
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>FormServlet</servlet-name>
-<<<<<<< HEAD
-    <url-pattern>/FomrServlet/*</url-pattern>
-=======
-    <url-pattern>/FormServlet/*</url-pattern>
->>>>>>> a0863a8df9fa6f334cdda38b1d316438efddf88b
-  </servlet-mapping>
-  
-  <error-page>
-    <error-code>404</error-code>
-    <location>/404.jsp</location>
-  </error-page>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
 
-  <error-page>
-    <error-code>500</error-code>
-    <location>/500.jsp</location>
-  </error-page>
-  
-  <error-page>
-    <error-code>405</error-code>
-    <location>/405.jsp</location>
-  </error-page>
-  
-  <error-page>
-    <exception-type>FormServlet.expt</exception-type>
-    <location>/404.jsp</location>
-  </error-page>
-  
-  <context-param>
-    <param-name>maxConnections</param-name>
-    <param-value>10</param-value>
-  </context-param>
+    <servlet>
+        <servlet-name>FormServlet</servlet-name>
+        <servlet-class>demo.FormServlet</servlet-class> <!-- Đảm bảo đúng đường dẫn package -->
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>FormServlet</servlet-name>
+        <url-pattern>/form</url-pattern> <!-- Cập nhật url-pattern cho đúng với servlet -->
+    </servlet-mapping>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
 
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/500.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <error-code>405</error-code>
+        <location>/405.jsp</location>
+    </error-page>
+    
+    <error-page>
+        <exception-type>FormServlet.expt</exception-type> <!-- Đảm bảo exception-type là đúng -->
+        <location>/404.jsp</location>
+    </error-page>
+    
+    <context-param>
+        <param-name>maxConnections</param-name>
+        <param-value>10</param-value>
+    </context-param>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
 
 </web-app>
