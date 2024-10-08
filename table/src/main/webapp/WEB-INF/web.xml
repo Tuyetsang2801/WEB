@@ -6,12 +6,12 @@
 
     <servlet>
         <servlet-name>FormServlet</servlet-name>
-        <servlet-class>demo.FormServlet</servlet-class> <!-- Đảm bảo đúng đường dẫn package -->
+        <servlet-class>demo.FormServlet</servlet-class>
     </servlet>
     
     <servlet-mapping>
         <servlet-name>FormServlet</servlet-name>
-        <url-pattern>/form</url-pattern> <!-- Cập nhật url-pattern cho đúng với servlet -->
+        <url-pattern>/form</url-pattern>
     </servlet-mapping>
     
     <error-page>
@@ -30,7 +30,7 @@
     </error-page>
     
     <error-page>
-        <exception-type>FormServlet.expt</exception-type> <!-- Đảm bảo exception-type là đúng -->
+        <exception-type>FormServlet.expt</exception-type> 
         <location>/404.jsp</location>
     </error-page>
     
