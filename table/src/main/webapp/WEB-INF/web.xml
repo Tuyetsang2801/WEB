@@ -5,12 +5,20 @@
   
   <servlet>
     <servlet-name>FormServlet</servlet-name>
+<<<<<<< HEAD
     <servlet-class>FormServlet.FormServlet</servlet-class>
+=======
+    <servlet-class>FormServel.FormServlet</servlet-class>
+>>>>>>> a0863a8df9fa6f334cdda38b1d316438efddf88b
   </servlet>
   
   <servlet-mapping>
     <servlet-name>FormServlet</servlet-name>
+<<<<<<< HEAD
     <url-pattern>/FomrServlet/*</url-pattern>
+=======
+    <url-pattern>/FormServlet/*</url-pattern>
+>>>>>>> a0863a8df9fa6f334cdda38b1d316438efddf88b
   </servlet-mapping>
   
   <error-page>
@@ -29,7 +37,6 @@
   </error-page>
   
   <error-page>
-    <exception-type>Jvpr.expt</exception-type>
     <location>/404.jsp</location>
   </error-page>
   
